@@ -1,7 +1,7 @@
-#include "vetor.hpp"
+#include "vector.hpp"
 #include <cmath>
 
-int Vetor::count = 0;
+int Vector::count = 0;
 
 Vector::Vector(double x, double y, double z) : x(x), y(y), z(z), id(++count) {}
 
